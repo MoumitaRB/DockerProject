@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DockerSuite" duration-ms="103961" started-at="2020-06-11T17:01:40Z" finished-at="2020-06-11T17:03:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="103961" started-at="2020-06-11T17:01:40Z" finished-at="2020-06-11T17:03:24Z">
+      <class name="Docker.ChromeTest1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Docker.ChromeTest1@3ffc5af1]" name="test1" duration-ms="14454" started-at="2020-06-11T17:02:16Z" finished-at="2020-06-11T17:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Docker.ChromeTest1 -->
+      <class name="Docker.FireFoxTest4">
+        <test-method status="PASS" signature="test4()[pri:0, instance:Docker.FireFoxTest4@3532ec19]" name="test4" duration-ms="57860" started-at="2020-06-11T17:02:16Z" finished-at="2020-06-11T17:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Docker.FireFoxTest4 -->
+      <class name="Docker.SetUp_DockerGrid">
+        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:Docker.SetUp_DockerGrid@61832929]" name="startDockerGrid" is-config="true" duration-ms="30021" started-at="2020-06-11T17:01:40Z" finished-at="2020-06-11T17:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method status="PASS" signature="increaseNumberOfNodes()[pri:0, instance:Docker.SetUp_DockerGrid@61832929]" name="increaseNumberOfNodes" is-config="true" duration-ms="6007" started-at="2020-06-11T17:02:10Z" depends-on-methods="Docker.SetUp_DockerGrid.startDockerGrid" finished-at="2020-06-11T17:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseNumberOfNodes -->
+        <test-method status="PASS" signature="stopDockerGrid()[pri:0, instance:Docker.SetUp_DockerGrid@61832929]" name="stopDockerGrid" is-config="true" duration-ms="10011" started-at="2020-06-11T17:03:14Z" finished-at="2020-06-11T17:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- Docker.SetUp_DockerGrid -->
+      <class name="Docker.ChromeTest3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:Docker.ChromeTest3@26653222]" name="test3" duration-ms="17233" started-at="2020-06-11T17:02:16Z" finished-at="2020-06-11T17:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Docker.ChromeTest3 -->
+      <class name="Docker.ChromeTest2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:Docker.ChromeTest2@5e5792a0]" name="test2" duration-ms="14985" started-at="2020-06-11T17:02:16Z" finished-at="2020-06-11T17:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Docker.ChromeTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- DockerSuite -->
+</testng-results>
